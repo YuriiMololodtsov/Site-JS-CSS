@@ -4,7 +4,6 @@ import "./scss/title.scss";
 import "./scss/list.scss";
 import "./scss/content.scss";
 import "./scss/slider-brand.scss";
-import "./scss/slider-services.scss";
 
 import "./js/app.js";
 import "./js/sldr.js";
