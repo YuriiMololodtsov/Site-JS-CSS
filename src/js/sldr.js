@@ -2,6 +2,8 @@ const slider = document.querySelector(".slider-container");
 
 const slider2 = document.querySelector(".slider-container2");
 
+const slider3 = document.querySelector(".slider-container3");
+
 let mySwiper;
 
 function mobileSlider() {
@@ -57,3 +59,31 @@ function mobileSlider2() {
 }
 mobileSlider2();
 window.addEventListener("resize", mobileSlider2);
+
+let mySwiper3;
+
+function mobileSlider3() {
+  if (window.innerWidth <= 600 && slider3.dataset.mobile == "false") {
+    mySwiper3 = new Swiper(slider3, {
+      sliderPerView: 1,
+      spaceBetween: 50,
+      loop: true,
+      wrapperClass: "swiper-wrapper3",
+      slideClass: "swiper-wrapper__card3",
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+
+    slider3.dataset.mobile = "true";
+  }
+  if (window.innerWidth > 600) {
+    slider3.dataset.mobile = "false";
+    // проверяем есть ли класс у слайдера, если есть ломаем
+    if (slider3.classList.contains("swiper-initialized")) {
+      mySwiper3.destroy();
+    }
+  }
+}
+mobileSlider3();
+window.addEventListener("resize", mobileSlider3);
