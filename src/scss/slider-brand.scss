@@ -1,9 +1,12 @@
+/* ---------------Header------------------- */
 .slider-brand {
-  margin-top: 20px;
+  margin-top: 24px;
+  height: auto;
 }
 @media (max-width: 600) {
   .slider-brand {
     margin-top: 2em;
+    height: auto;
   }
 }
 .header-slider {
@@ -22,7 +25,7 @@
   padding: 15px 0px 0px 32px;
   font-size: 16px;
   text-transform: uppercase;
-  font-family: sans-serif;
+  font-family: "TT Lakes Thin", sans-serif;
   color: #7e7e82;
 }
 /* --------------Slider------------------ */
@@ -102,7 +105,7 @@
   margin: 0px 0px 0px 5px;
   border: none;
   background-color: transparent;
-  font-family: Arial, sans-serif;
+  font-family: "TT Lakes Thin", Arial, sans-serif;
 }
 .read-more__img {
   margin-left: 32px;
