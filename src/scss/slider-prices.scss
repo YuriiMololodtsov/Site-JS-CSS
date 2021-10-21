@@ -1,7 +1,9 @@
 .slider-container3 {
   overflow: hidden;
-  width: 100%;
+  width: 75%;
   margin-top: 16px;
+  margin-left: 40px;
+  min-width: 240px;
 }
 
 .swiper-wrapper3 {
@@ -17,10 +19,14 @@
     height: auto;
     width: 100%;
   }
+  .slider-container3 {
+    width: 100%;
+    margin-left: 10px;
+  }
 }
 
 .swiper-wrapper__card3 {
-  padding: 5px;
+  padding: 20px;
   border: 1px solid rgb(236, 235, 235);
   border-radius: 5px;
   height: 200px;
@@ -33,6 +39,7 @@
   background-color: #fff;
   font-family: "TT Lakes Thin", sans-serif;
   position: relative;
+  min-width: 240px;
 }
 @media (min-width: 600px) {
   .swiper-wrapper__card3 {
@@ -59,7 +66,7 @@
   color: #fff;
   position: absolute;
   bottom: 16px;
-  left: 125px;
+  left: 110px;
 }
 @media (min-width: 600px) {
   .swiper-wrapper-main__btn3 {

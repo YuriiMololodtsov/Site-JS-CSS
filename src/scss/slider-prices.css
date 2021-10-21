@@ -1,7 +1,9 @@
 .slider-container3 {
   overflow: hidden;
-  width: 100%;
+  width: 75%;
   margin-top: 16px;
+  margin-left: 40px;
+  min-width: 240px;
 }
 
 .swiper-wrapper3 {
@@ -19,18 +21,22 @@
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: auto;
     width: 100%;
+  }
+  .slider-container3 {
+    width: 100%;
+    margin-left: 10px;
   }
 }
 
 .swiper-wrapper__card3 {
-  padding: 5px;
+  padding: 20px;
   border: 1px solid #ecebeb;
   border-radius: 5px;
   height: 200px;
@@ -38,11 +44,12 @@
   color: #000;
   font-size: 16px;
   -ms-flex-negative: 0;
-  flex-shrink: 0;
+      flex-shrink: 0;
   margin-right: 24px;
   background-color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "TT Lakes Thin", sans-serif;
   position: relative;
+  min-width: 240px;
 }
 
 @media (min-width: 600px) {
@@ -55,8 +62,8 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .title-hidden {
     display: none;
@@ -72,14 +79,14 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   color: #fff;
   position: absolute;
   bottom: 16px;
-  left: 125px;
+  left: 110px;
 }
 
 @media (min-width: 600px) {
@@ -122,8 +129,8 @@
   height: 65px;
   width: 90%;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .swiper-wrapper__card3.hidden {
