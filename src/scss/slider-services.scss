@@ -1,3 +1,5 @@
+@import "style.scss";
+
 .slider-container2 {
   overflow: hidden;
   width: 100%;
@@ -23,13 +25,13 @@
   border-radius: 5px;
   height: 160px;
   width: auto;
-  color: #000;
+  color: $black;
   font-size: 16px;
   flex-shrink: 0;
 
   margin-bottom: 16px;
   background-color: #f8f8f8;
-  font-family: "TT Lakes Thin", sans-serif;
+  font-family: $fontPages, sans-serif;
 }
 @media (min-width: 600px) {
   .swiper-wrapper__card2 {
@@ -39,7 +41,7 @@
 .swiper-wrapper-main__btn2 {
   width: 40px;
   height: 40px;
-  border: 2px solid #ff3e79;
+  border: 2px solid $btnColor;
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -48,7 +50,7 @@
 .swiper-wrapper2__cont {
   width: 224px;
   height: 160px;
-  background-color: #fff;
+  background-color: $whiteText;
   padding: 16px;
   border: 1px solid #eaeaea;
 }

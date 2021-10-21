@@ -1,3 +1,5 @@
+@import "style.scss";
+
 /* ---------------Header------------------- */
 .slider-brand {
   margin-top: 24px;
@@ -14,7 +16,7 @@
   min-width: 320px;
   height: 56px;
   background: linear-gradient(90deg, #f2f2f2 0%, #ffffff 98.61%);
-  border-top: 1px solid #d9fff5;
+  border-top: 1px solid $lineColor;
 }
 @media (max-width: 600px) {
   .header-slider {
@@ -25,8 +27,8 @@
   padding: 15px 0px 0px 32px;
   font-size: 16px;
   text-transform: uppercase;
-  font-family: "TT Lakes Thin", sans-serif;
-  color: #7e7e82;
+  font-family: $fontPages, sans-serif;
+  color: $grayText;
 }
 /* --------------Slider------------------ */
 .swiper-wrapper__card {
@@ -34,7 +36,7 @@
   /* border: 1px solid black; */
   min-height: 100px;
   min-width: 25%;
-  color: #000;
+  color: $black;
   font-size: 16px;
   flex-shrink: 0;
   margin-right: 0;
@@ -61,7 +63,7 @@
   max-width: 240px;
   border-radius: 6px;
   border: 1px solid #eaeaea;
-  background-color: #fff;
+  background-color: $whiteText;
   text-align: center;
   display: flex;
   align-items: center;
@@ -87,7 +89,7 @@
 .swiper-wrapper-main__btn {
   width: 40px;
   height: 40px;
-  border: 2px solid #ff3e79;
+  border: 2px solid $btnColor;
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -105,7 +107,7 @@
   margin: 0px 0px 0px 5px;
   border: none;
   background-color: transparent;
-  font-family: "TT Lakes Thin", Arial, sans-serif;
+  font-family: $fontPages, Arial, sans-serif;
 }
 .read-more__img {
   margin-left: 32px;

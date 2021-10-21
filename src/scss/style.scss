@@ -1,6 +1,30 @@
-$bgColor: #24292e;
-$text: #fff;
+$btnColor: #ff3e79;
+$text: #1b1c21;
+$lineColor: #d9fff5;
+$whiteText: #ffffff;
+$bgColor: #f8f8f8;
+$grayText: #7e7e82;
+$black: #000;
 
+$fontPages: "TTLakes-Regular";
+$fontMedium: "TTLakes-Medium";
+$fontBold: "TTLakes-Bold";
+
+@font-face {
+  font-family: "TTLakes-Regular";
+  src: url(../fonts/TTLakes-Regular.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "TTLakes-Medium";
+  src: url(../fonts/TTLakes-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "TTLakes-Bold";
+  src: url(../fonts/TTLakes-Bold.ttf) format("truetype");
+}
 // @font-face {
 //   font-family: "Comic";
 //   src: url("../fonts/comic.ttf") format("truetype");
@@ -19,7 +43,7 @@ $text: #fff;
   box-sizing: border-box;
 }
 body {
-  background-color: #f8f8f8;
+  background-color: $bgColor;
   padding: 0;
   margin: 0;
 }

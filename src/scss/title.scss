@@ -1,3 +1,5 @@
+@import "style.scss";
+
 .title {
   display: flex;
   align-items: center;
@@ -13,10 +15,10 @@
 
 .title__h1 {
   margin-left: 12px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: $fontBold, sans-serif;
   font-size: 28px;
   line-height: 40px;
-  color: #1b1c21;
+  color: $text;
 }
 @media (min-width: 1120px) {
   .title__h1 {

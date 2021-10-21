@@ -1,3 +1,5 @@
+@import "style.scss";
+
 #popup2 {
   border: 2px solid green;
 
@@ -5,7 +7,7 @@
   height: 100%;
 }
 .popup2__content {
-  background-color: #fff;
+  background-color: $whiteText;
   width: 440px;
   min-height: 1200px;
   /* border: 2px solid seagreen; */
@@ -20,13 +22,13 @@ input {
   width: 376px;
   border: 1px solid #eaeaea;
   margin-bottom: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: $fontPages, sans-serif;
 }
 #text {
   border-radius: 8px;
   border: 1px solid #eaeaea;
   width: 376px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: $fontPages, sans-serif;
   color: #a09f9f;
 }
 .popup2__title {
@@ -38,41 +40,42 @@ input {
   display: block;
   height: 40px;
   width: 40px;
-  background-color: #ff3e79;
+  background-color: $btnColor;
   border-radius: 50%;
   text-decoration: none;
-  color: #fff;
+  color: $whiteText;
   text-align: center;
   top: 35px;
-  right: 530px;
+  right: 450px;
   /* padding-top: 10px; */
 }
 #popup2__btn {
   margin-top: 10px;
 }
 .popup2__title {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: $fontPages, sans-serif;
   font-size: 24px;
 }
 .content {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: $fontPages, sans-serif;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0px;
   text-align: left;
+  color: $grayText;
 }
 .aferta {
   text-decoration: none;
-  color: #ff3e79;
+  color: $btnColor;
 }
 .popup1__btn-send {
   width: 136px;
   height: 32px;
-  background-color: #ff3e79;
+  background-color: $btnColor;
   border: none;
   border-radius: 16px;
   margin-top: 16px;
-  color: #fff;
+  color: $whiteText;
 }
 .dropdown {
   margin-left: 10px;

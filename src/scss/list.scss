@@ -1,6 +1,9 @@
+@import "style.scss";
+
 a {
   text-decoration: none;
-  color: #7e7e82;
+  color: $grayText;
+  font-family: $fontPages, serif;
 }
 
 .list {
@@ -31,9 +34,9 @@ a {
 .list__btn:hover {
   width: 246px;
   height: 40px;
-  color: #7e7e82;
-  border: 2px solid #41f6d7;
-  background-color: #fff;
+  color: $grayText;
+  border: 2px solid $lineColor;
+  background-color: $whiteText;
   border-radius: 6px;
 }
 

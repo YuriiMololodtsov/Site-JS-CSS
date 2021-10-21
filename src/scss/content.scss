@@ -1,9 +1,11 @@
+@import "style.scss";
+
 .read-more {
   display: flex;
   align-items: center;
   margin-left: 16px;
   margin-top: 10px;
-  font-family: serif;
+  font-family: $fontMedium, serif;
   font-weight: 700;
 }
 .read-more__expand {
@@ -27,8 +29,10 @@
   .content__text {
     min-width: 30%;
     line-height: 20px;
+    font-family: $fontPages, serif;
   }
   .content__text-2 {
+    font-family: $fontPages, serif;
     display: block;
     width: 100%;
   }

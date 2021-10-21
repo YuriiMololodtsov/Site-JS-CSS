@@ -1,6 +1,8 @@
+@import "style.scss";
+
 .header {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: black;
+  font-family: $fontPages, sans-serif;
+  background-color: $black;
 }
 .button {
   border: none;
@@ -16,8 +18,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #fff;
-  border-bottom: 1px solid #d9fff5;
+  background-color: $whiteText;
+  border-bottom: 1px solid $lineColor;
 }
 @media (min-width: 1120px) {
   .header__inn {
@@ -59,6 +61,6 @@
   align-items: center;
   width: 40px;
   height: 40px;
-  background: #ff3e79;
+  background: $btnColor;
   border-radius: 50%;
 }

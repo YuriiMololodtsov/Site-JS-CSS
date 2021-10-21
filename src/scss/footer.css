@@ -1,9 +1,38 @@
+@font-face {
+  font-family: "TTLakes-Regular";
+  src: url(../fonts/TTLakes-Regular.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "TTLakes-Medium";
+  src: url(../fonts/TTLakes-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "TTLakes-Bold";
+  src: url(../fonts/TTLakes-Bold.ttf) format("truetype");
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f8f8;
+  padding: 0;
+  margin: 0;
+}
+
 .content-p {
   text-align: left;
   font-size: 14px;
-  border-bottom: 1px solid #bff6fa;
+  border-bottom: 1px solid #41f6d7;
   max-width: 95%;
   margin-left: 16px;
+  font-family: "TTLakes-Regular", serif;
+  color: #1b1c21;
 }
 
 .footer {
@@ -14,9 +43,11 @@
   letter-spacing: 0px;
   text-align: center;
   margin-top: 20px;
+  font-family: "TTLakes-Regular", serif;
 }
 
 .footer.foter__text-1 {
   margin-top: 50px;
+  font-family: "TTLakes-Regular", serif;
 }
 /*# sourceMappingURL=footer.css.map */
