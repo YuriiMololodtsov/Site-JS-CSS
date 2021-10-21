@@ -9,6 +9,7 @@ import "../scss/slider-prices.scss";
 import "../scss/menupopup.scss";
 import "../scss/menupopup2.scss";
 import "../scss/menupopup3.scss";
+import "../scss/footer.scss";
 
 import "./app.js";
 import "./sldr.js";

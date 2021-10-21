@@ -19,11 +19,11 @@
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     height: auto;
     width: 100%;
   }
@@ -38,10 +38,10 @@
   color: #000;
   font-size: 16px;
   -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   margin-right: 24px;
   background-color: #fff;
-  font-family: "TT Lakes Thin", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   position: relative;
 }
 
@@ -55,8 +55,8 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
   .title-hidden {
     display: none;
@@ -72,10 +72,10 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   color: #fff;
   position: absolute;
   bottom: 16px;
@@ -122,8 +122,8 @@
   height: 65px;
   width: 90%;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .swiper-wrapper__card3.hidden {
