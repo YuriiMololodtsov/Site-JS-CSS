@@ -73,7 +73,7 @@ body {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   margin-right: 24px;
-  background-color: #fff;
+  background-color: #ffffff;
   font-family: "TTLakes-Regular", sans-serif;
   position: relative;
   min-width: 240px;
@@ -110,10 +110,11 @@ body {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  color: #fff;
+  color: #ffffff;
   position: absolute;
   bottom: 16px;
   left: 110px;
+  cursor: pointer;
 }
 
 @media (min-width: 600px) {
@@ -129,6 +130,7 @@ body {
   width: 7px;
   height: 10px;
   color: #000;
+  cursor: pointer;
 }
 
 .swiper-wrapper-main__btn3.hidd {

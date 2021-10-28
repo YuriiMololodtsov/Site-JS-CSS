@@ -6,6 +6,7 @@
   width: 100%;
   height: 100%;
 }
+
 .popup2__content {
   background-color: $whiteText;
   width: 440px;
@@ -16,6 +17,7 @@
   right: 0;
   padding: 0 32px;
 }
+
 input {
   border-radius: 8px;
   height: 48px;
@@ -24,6 +26,7 @@ input {
   margin-bottom: 16px;
   font-family: $fontPages, sans-serif;
 }
+
 #text {
   border-radius: 8px;
   border: 1px solid #eaeaea;
@@ -31,10 +34,12 @@ input {
   font-family: $fontPages, sans-serif;
   color: #a09f9f;
 }
+
 .popup2__title {
   margin-bottom: 16px;
   margin-top: 40px;
 }
+
 .popup2__close {
   position: absolute;
   display: block;
@@ -48,14 +53,18 @@ input {
   top: 35px;
   right: 450px;
   /* padding-top: 10px; */
+  cursor: pointer;
 }
+
 #popup2__btn {
   margin-top: 10px;
 }
+
 .popup2__title {
   font-family: $fontPages, sans-serif;
   font-size: 24px;
 }
+
 .content {
   font-family: $fontPages, sans-serif;
   font-size: 14px;
@@ -64,10 +73,12 @@ input {
   text-align: left;
   color: $grayText;
 }
+
 .aferta {
   text-decoration: none;
   color: $btnColor;
 }
+
 .popup1__btn-send {
   width: 136px;
   height: 32px;
@@ -76,7 +87,9 @@ input {
   border-radius: 16px;
   margin-top: 16px;
   color: $whiteText;
+  cursor: pointer;
 }
+
 .dropdown {
   margin-left: 10px;
 }

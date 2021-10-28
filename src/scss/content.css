@@ -36,10 +36,12 @@ body {
   margin-top: 10px;
   font-family: "TTLakes-Medium", serif;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .read-more__expand {
   margin: 0 8px;
+  cursor: pointer;
 }
 
 .picture {

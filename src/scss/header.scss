@@ -4,12 +4,15 @@
   font-family: $fontPages, sans-serif;
   background-color: $black;
 }
+
 .button {
   border: none;
   display: flex;
   background-color: transparent;
   align-items: center;
+  cursor: pointer;
 }
+
 .header__inn {
   min-height: 88px;
   min-width: 320px;
@@ -21,6 +24,7 @@
   background-color: $whiteText;
   border-bottom: 1px solid $lineColor;
 }
+
 @media (min-width: 1120px) {
   .header__inn {
     display: none;
@@ -30,31 +34,38 @@
 .button__repair {
   margin-left: 15px;
 }
+
 .header__menu-logo {
   display: flex;
   justify-content: space-between;
 }
+
 .header__divider {
   display: none;
 }
+
 @media (min-width: 786px) {
   .header__divider {
     display: flex;
     margin: 0 16px;
   }
 }
+
 .header__btn-menu {
   display: flex;
 }
+
 .header__hidden-menu {
   display: none;
 }
+
 @media (min-width: 786px) {
   .header__hidden-menu {
     display: flex;
     margin-right: 15px;
   }
 }
+
 .button__back {
   display: flex;
   justify-content: center;
@@ -63,4 +74,5 @@
   height: 40px;
   background: $btnColor;
   border-radius: 50%;
+  cursor: pointer;
 }

@@ -23,6 +23,7 @@ body {
   background-color: #f8f8f8;
   padding: 0;
   margin: 0;
+  font-family: "TTLakes-Medium";
 }
 
 .slider-container2 {
@@ -82,12 +83,13 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin: 70px 0px 0px 160px;
+  cursor: pointer;
 }
 
 .swiper-wrapper2__cont {
   width: 224px;
   height: 160px;
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 16px;
   border: 1px solid #eaeaea;
 }

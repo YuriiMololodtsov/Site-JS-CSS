@@ -41,7 +41,7 @@ body {
 
 .popup__content {
   width: 320px;
-  background-color: #fff;
+  background-color: #ffffff;
   height: 100%;
   font-family: "TTLakes-Regular", serif;
 }
@@ -109,6 +109,7 @@ a {
   height: 40px;
   background: #ff3e79;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .header-menu__menu-logo {

@@ -93,6 +93,7 @@
   border-radius: 20px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .swiper-wrapper__link-btn {
@@ -101,6 +102,7 @@
   height: 12px;
   margin-left: 15px;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 /* ---------Читать далее------------*/
 .read-more__btn {
@@ -108,10 +110,13 @@
   border: none;
   background-color: transparent;
   font-family: $fontPages, Arial, sans-serif;
+  cursor: pointer;
 }
+
 .read-more__img {
   margin-left: 32px;
 }
+
 .swiper-pagination {
   display: none;
 }

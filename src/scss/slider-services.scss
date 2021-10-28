@@ -13,12 +13,14 @@
   height: 200px;
   margin-left: 30px;
 }
+
 @media (min-width: 600px) {
   .swiper-wrapper2 {
     justify-content: space-between;
     margin: 0;
   }
 }
+
 .swiper-wrapper__card2 {
   padding: 5px;
   // border: 1px solid rgb(236, 235, 235);
@@ -33,11 +35,13 @@
   background-color: #f8f8f8;
   font-family: $fontPages, sans-serif;
 }
+
 @media (min-width: 600px) {
   .swiper-wrapper__card2 {
     width: auto;
   }
 }
+
 .swiper-wrapper-main__btn2 {
   width: 40px;
   height: 40px;
@@ -46,7 +50,9 @@
   display: flex;
   align-items: center;
   margin: 70px 0px 0px 160px;
+  cursor: pointer;
 }
+
 .swiper-wrapper2__cont {
   width: 224px;
   height: 160px;
@@ -54,6 +60,7 @@
   padding: 16px;
   border: 1px solid #eaeaea;
 }
+
 @media (min-width: 600px) {
   .swiper-wrapper2__cont {
     width: 240px;

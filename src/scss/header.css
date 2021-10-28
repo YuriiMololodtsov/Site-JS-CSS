@@ -27,7 +27,7 @@ body {
 
 .header {
   font-family: "TTLakes-Regular", sans-serif;
-  background-color: black;
+  background-color: #000;
 }
 
 .button {
@@ -39,6 +39,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 
 .header__inn {
@@ -55,7 +56,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #fff;
+  background-color: #ffffff;
   border-bottom: 1px solid #d9fff5;
 }
 
@@ -124,5 +125,6 @@ body {
   height: 40px;
   background: #ff3e79;
   border-radius: 50%;
+  cursor: pointer;
 }
 /*# sourceMappingURL=header.css.map */
