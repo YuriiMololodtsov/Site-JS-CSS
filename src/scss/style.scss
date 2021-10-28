@@ -49,3 +49,34 @@ body {
   margin: 0;
   font-family: $fontMedium;
 }
+
+@media (min-width: 1400px) {
+  body {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+  @media (min-width: 1450px) {
+    body {
+      max-width: 1440px;
+      margin: 0 auto;
+    }
+  }
+  .container-1 {
+    display: block;
+  }
+  .container-2 {
+    width: 80%;
+  }
+}
+
+.container-1 {
+  min-width: 320px;
+  height: 1900px;
+  background-color: #ffffff;
+}
+@media (max-width: 1400px) {
+  .container-1 {
+    display: none;
+  }
+}
