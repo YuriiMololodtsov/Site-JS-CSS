@@ -56,15 +56,18 @@ body {
     flex-wrap: nowrap;
     width: 100%;
   }
+
   @media (min-width: 1450px) {
     body {
       max-width: 1440px;
       margin: 0 auto;
     }
   }
+
   .container-1 {
     display: block;
   }
+
   .container-2 {
     width: 80%;
   }
@@ -72,9 +75,10 @@ body {
 
 .container-1 {
   min-width: 320px;
-  height: 1900px;
+  height: 1800px;
   background-color: #ffffff;
 }
+
 @media (max-width: 1400px) {
   .container-1 {
     display: none;
