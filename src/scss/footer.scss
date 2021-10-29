@@ -10,9 +10,9 @@
   color: $text;
 }
 
-.footer {
+.footer1 {
   color: $grayText;
-  font-family: Arial, Helvetica, sans-serif;
+
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0px;
@@ -21,7 +21,28 @@
   font-family: $fontPages, serif;
 }
 
-.footer.foter__text-1 {
+@media (min-width: 620px) {
+  .footer1 {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.footer.footer__text-1 {
   margin-top: 50px;
   font-family: $fontPages, serif;
+}
+
+.content__link {
+  font-family: $fontBold;
+  font-weight: bold;
+  position: relative;
+}
+
+.content__link::after {
+  content: ">";
+  color: $btnColor;
+  position: absolute;
+  top: 0;
+  left: 270px;
 }

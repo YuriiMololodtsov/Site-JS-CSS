@@ -25,20 +25,7 @@ $fontBold: "TTLakes-Bold";
   font-family: "TTLakes-Bold";
   src: url(../fonts/TTLakes-Bold.ttf) format("truetype");
 }
-// @font-face {
-//   font-family: "Comic";
-//   src: url("../fonts/comic.ttf") format("truetype");
-//   font-weight: normal;
-//   font-style: italic;
-// }
 
-// body {
-//   padding: 1rem;
-//   margin: 0;
-//   font-family: Comic, sans-serif;
-//   background-color: $bgColor;
-//   color: $text;
-// }
 * {
   box-sizing: border-box;
 }
@@ -55,6 +42,16 @@ body {
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
+  }
+
+  .menu-button.close {
+    display: none;
+  }
+  .menu-button.hid {
+    display: none;
+  }
+  .header-menu__logo {
+    cursor: pointer;
   }
 
   @media (min-width: 1450px) {
