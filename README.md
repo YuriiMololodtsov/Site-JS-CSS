@@ -3,4 +3,4 @@ Html/ CSS/ JS
 Webpack/ BEM
 
 Смотреть:
-[жмяк](https:yuriimololodtsov.github.io/block7)
+[жмяк](https://yuriimololodtsov.github.io/Site-JS-CSS/)
